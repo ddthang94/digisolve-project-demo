@@ -87,6 +87,16 @@ h2 {
     margin-top: 50px;
 }
 
+/* .sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(255,255,255,.8);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 999;
+} */
+
 .main-nav li {
     display: inline-block;
     margin-right: 40px;
@@ -110,6 +120,10 @@ h2 {
     float: left;
 }
 
+/* About section */
+.about-section {
+    padding-bottom: 20px;
+}
 .about-box {
     margin-top: 150px;
 }
@@ -138,4 +152,68 @@ h2 {
 .about-para {
     color: grey;
     margin-bottom: 50px;
+}
+
+/* Portfolio section */
+.work-section {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.section-heading {
+    font-size: 250%;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.section-sub-heading {
+    font-size: 150%;
+    color: #555;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.section-sub-heading:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #ed07b7;
+    margin: 30px auto 0 auto;
+}
+
+.work-portfolio {
+    margin-top: 10px;
+    list-style: none;
+    width: 100%;
+}
+
+.work-portfolio li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.portfolio-image {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    transform: scale(1.15);
+}
+
+.portfolio-image img:hover {
+    cursor: pointer;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.work-para {
+    color: #fff;
+    font-weight: 500;
 }
